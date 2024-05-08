@@ -1,0 +1,152 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0% 5% 5% 5%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(106,9,121,1) 35%, rgba(140,78,217,1) 100%);
+}
+
+.titulo{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    color: indigo;
+}
+form{
+    max-width: 800px;
+    max-height: 900px;
+    background-color: white;
+    padding: 0% 5% 5% 5%; 
+    border-radius: 5%;
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.layout{   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topo{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom .data{
+    display: flex;
+    flex-direction: column;
+}
+
+.generos{
+    display: flex;
+    align-items: center;
+    border: solid;
+    border-radius: 5%;
+    border-color: indigo;
+    border-width: 3px;
+    padding: 8px 5px;
+    margin-bottom: 19px;
+}
+
+input[type="text"]{   
+    background-color: white;
+    width: 250px;
+    height: 30px;
+    border-radius: 5%;
+    border-color: indigo;
+    border-width: 3px;
+}
+
+input[type="email"]{   
+    background-color: white;
+    width: 250px;
+    height: 30px;
+    border-radius: 5%;
+    border-color: indigo;
+    border-width: 3px;
+}
+
+input[type="password"]{   
+    background-color: white;
+    width: 250px;
+    height: 30px;
+    border-radius: 5%;
+    border-color: indigo;
+    border-width: 3px;
+}
+
+input[type="date" i] {
+    align-items: center;
+    display: inline-flex;
+    font-family: monospace;
+    padding-inline-start: 1px;
+    cursor: default;
+    overflow: hidden;
+    width: 200px;
+    border-radius: 5%;
+    border-color: indigo;
+    border-width: 3px;
+    padding: 8px 27px;
+}
+
+
+
+form .botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+button{
+        background-color: indigo;;
+        border: 1px solid #d5d9d9;
+        border-radius: 8px;
+        box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+        box-sizing: border-box;
+        color: white;
+        cursor: pointer;
+        font-family: "Amazon Ember",sans-serif;
+        font-size: 13px;
+        line-height: 30px;
+        padding: 0 10px 0 11px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: middle;
+        width: 200px;
+    }
+    
+    .button:hover {
+      background-color: #f7fafa;
+    }
+    
+    .button:focus {
+      border-color: #008296;
+      box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+      outline: 0;
+    }
+
+
+  /* estilo logo */
+  .logo{
+    display: block;
+    align-items: baseline;
+  }
+  .logo a{
+    max-width: 100px;
+    max-width: 100px;
+    width: auto;
+    width: auto;
+  }
+  
